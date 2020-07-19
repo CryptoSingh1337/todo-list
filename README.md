@@ -1,4 +1,4 @@
-![GitHub Logo](/src/com/saransh/todolist/icon/icon.png)
+<img src="https://github.com/CryptoSingh1337/todo-list/blob/master/src/com/saransh/todolist/icon/icon.png" height="250" width="250" alt="Logo">
 # Todo-List
 This is a Java application created using Java-FX 11.
 
@@ -23,5 +23,5 @@ This is a Java application created using Java-FX 11.
 #### Menu Bar
 <img src="https://github.com/CryptoSingh1337/todo-list/blob/master/ScreenShots/MenuBar.png" width="488" height="410"><br><br>
 #### Today's Todo Item
-<img src="https://github.com/CryptoSingh1337/todo-list/blob/master/ScreenShots/todaysItem.png" width="488" height="410">
+<img src="https://github.com/CryptoSingh1337/todo-list/blob/master/ScreenShots/todaysItem.png">
 </p>
