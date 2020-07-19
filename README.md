@@ -13,6 +13,12 @@ This is a Java application created using Java-FX 11.
 2. JavaFX 11.0.2 or above.
 #### JavaFX 11.0.2 Link: https://gluonhq.com/products/javafx/
 
+### Installation:
+1. Install JDK.
+2. Unzip the JavaFX libraray and Paste it at "C:\JavaFX\".
+3. Run the run.bat file which is present inside the TodoList Jar File folder.
+Thats it.
+
 ## ScreenShots
 <p align="center">
  
