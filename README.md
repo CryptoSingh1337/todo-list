@@ -2,6 +2,12 @@
 # Todo-List
 This is a Java application created using Java-FX 11.
 
+### Features:
+1. User can add new Todo Item, edit and delete the Todo Item.
+2. Display Todo Items on the basis of Deadlines.
+3. Display the color of the Text according to the deadline.
+4. Able to save all the item at the time of exit and reinititalize TodoList at the time of launching.
+
 ### Requirements:
 1. JDK -11 or above.
 2. JavaFX 11.0.2 or above.
@@ -11,17 +17,17 @@ This is a Java application created using Java-FX 11.
 <p align="center">
  
 #### Main Window
-<img src="https://github.com/CryptoSingh1337/todo-list/blob/master/ScreenShots/Main.png" width="488" height="410"><br><br>
+<img src="https://github.com/CryptoSingh1337/todo-list/blob/master/ScreenShots/Main.png"><br><br>
 #### Add Todo Item Window
-<img src="https://github.com/CryptoSingh1337/todo-list/blob/master/ScreenShots/Add.png" width="488" height="410"><br><br>
+<img src="https://github.com/CryptoSingh1337/todo-list/blob/master/ScreenShots/Add.png"><br><br>
 #### Delete Todo Item Window
-<img src="https://github.com/CryptoSingh1337/todo-list/blob/master/ScreenShots/delete.png" width="488" height="410"><br><br>
+<img src="https://github.com/CryptoSingh1337/todo-list/blob/master/ScreenShots/delete.png"><br><br>
 #### Edit Todo Item Window
-<img src="https://github.com/CryptoSingh1337/todo-list/blob/master/ScreenShots/edit.png" width="488" height="410"><br><br>
+<img src="https://github.com/CryptoSingh1337/todo-list/blob/master/ScreenShots/edit.png"><br><br>
 #### Context Menu
-<img src="https://github.com/CryptoSingh1337/todo-list/blob/master/ScreenShots/contextMenu.png" width="488" height="410"><br><br>
+<img src="https://github.com/CryptoSingh1337/todo-list/blob/master/ScreenShots/contextMenu.png"><br><br>
 #### Menu Bar
-<img src="https://github.com/CryptoSingh1337/todo-list/blob/master/ScreenShots/MenuBar.png" width="488" height="410"><br><br>
+<img src="https://github.com/CryptoSingh1337/todo-list/blob/master/ScreenShots/MenuBar.png"><br><br>
 #### Today's Todo Item
 <img src="https://github.com/CryptoSingh1337/todo-list/blob/master/ScreenShots/todaysItem.png">
 </p>
