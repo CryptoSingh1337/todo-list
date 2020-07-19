@@ -1,0 +1,95 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.control.Tooltip?>
+
+<?import javafx.scene.control.ToggleButton?>
+<BorderPane fx:id="mainBorderPane" fx:controller="com.saransh.todolist.Controller" xmlns:fx="http://javafx.com/fxml">
+    <top>
+        <VBox>
+            <MenuBar>
+                <Menu text="File" >
+                    <MenuItem text="New .." onAction="#showNewItemDialog" mnemonicParsing="false"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem text="Exit" onAction="#handleExit" mnemonicParsing="false"/>
+                </Menu>
+                <Menu text="Help">
+                    <MenuItem text="Getting Started" onAction="#gettingStarted"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem text="About" onAction="#about"/>
+                </Menu>
+            </MenuBar>
+            <ToolBar fx:id="toolbar">
+                <HBox spacing="10">
+                    <Button onAction="#showNewItemDialog">
+                        <tooltip>
+                            <Tooltip text="Add a New Todo Item."/>
+                        </tooltip>
+                        <graphic>
+                            <ImageView>
+                                <Image url="toolbarButtonGraphics/general/New24.gif"/>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Button fx:id="editButton">
+                        <tooltip>
+                            <Tooltip text="Edit the selected Todo Item."/>
+                        </tooltip>
+                        <graphic>
+                            <ImageView>
+                                <Image url="toolbarButtonGraphics/general/Edit24.gif"/>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Button fx:id="deleteButton">
+                        <tooltip>
+                            <Tooltip text="Delete the selected Todo Item."/>
+                        </tooltip>
+                        <graphic>
+                            <ImageView>
+                                <Image url="toolbarButtonGraphics/general/Delete24.gif"/>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <ToggleButton fx:id="filterToggleButton" text="Today's Item" onAction="#handleFilterButton" style="-fx-pref-height: 32px">
+                        <tooltip>
+                            <Tooltip text="Button Down: Show Today's Item only. Button Up: Show all Items."/>
+                        </tooltip>
+                    </ToggleButton>
+                </HBox>
+            </ToolBar>
+        </VBox>
+    </top>
+    <left>
+        <ListView fx:id="todoListView" onKeyPressed="#handleKeyPressed"/>
+    </left>
+    <center>
+        <VBox style="-fx-background-color: white">
+            <TextArea fx:id="itemDetailTextArea" VBox.vgrow="ALWAYS" style="-fx-font-size: 14" wrapText="true"
+                      editable="false"/>
+            <HBox spacing="5" prefHeight="20">
+                <padding>
+                    <Insets left="5"/>
+                </padding>
+                <Label fx:id="deadlineLabel">
+                    <font>
+                        <Font name="Times New Roman bold" size="15"/>
+                    </font>
+                </Label>
+            </HBox>
+        </VBox>
+    </center>
+</BorderPane>
