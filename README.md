@@ -10,4 +10,4 @@ This is a Java application created using Java-FX 11.
 ## ScreenShots
 
 ### Add Todo Item Window
-![Add Window] (/ScreenShots/Add.png)
+![Add Window] (todo-list/ScreenShots/Add.png)
