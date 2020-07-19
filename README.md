@@ -7,7 +7,7 @@ This is a Java application created using Java-FX 11.
 2. Display Todo Items on the basis of Deadlines.
 3. Display the color of the Text according to the deadline.
 4. Able to save all the item at the time of exit and reinititalize TodoList at the time of launching.
-
+5. It can be run on windows, linux and macOS as well.
 ### Requirements:
 1. JDK -11 or above.
 2. JavaFX 11.0.2 or above.
