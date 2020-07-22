@@ -15,8 +15,7 @@ This is a Java application created using Java-FX 11.
 
 ### Installation:
 1. Install JDK.
-2. Unzip the JavaFX libraray and Paste it at "C:\JavaFX\".
-3. Run the run.bat file which is present inside the TodoList Jar File folder.
+2. Run the run.bat file which is present inside the TodoList Jar File folder.
 Thats it.
 
 ## ScreenShots
